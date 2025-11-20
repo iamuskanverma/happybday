@@ -52,8 +52,8 @@
     }
 
     Heart = function() {
-        // x = 16 sin^3 t
-        // y = 13 cos t - 5 cos 2t - 2 cos 3t - cos 4t
+      //  x = 16 sin^3 t
+       //  y = 13 cos t - 5 cos 2t - 2 cos 3t - cos 4t
         // http://www.wolframalpha.com/input/?i=x+%3D+16+sin%5E3+t%2C+y+%3D+(13+cos+t+-+5+cos+2t+-+2+cos+3t+-+cos+4t)
         var points = [], x, y, t;
         for (var i = 10; i < 30; i += 0.2) {
@@ -169,7 +169,7 @@
             ctx.scale(0.75, 0.75);
             ctx.font = "12px,Verdana"; // 字号肿么没有用? (ˉ(∞)ˉ)
             ctx.fillText("Click Me:) ", 30, -5);
-            ctx.fillText("Birthday Queen !", 28, 10);
+            ctx.fillText("HANDSOME !", 28, 10);
             ctx.restore();
         },
         clear: function() {

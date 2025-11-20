@@ -44,11 +44,12 @@ a {
   left: 60px;
   top: 550px;
   font-size: 28px;
-  display: none;
+  display: flex;
 }
 #clock-box a {
   font-size: 28px;
   text-decoration: none;
+  color: rgb(102, 22, 206);  
 }
 #clock {
   margin-left: 48px;
@@ -66,6 +67,7 @@ a {
   text-align: center;
   margin-top: 60px;
   display: none;
+  color: red; 
 }
 .hand {
   cursor: pointer;
